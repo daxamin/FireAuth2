@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "158656811088",
+    "firebase_url": "https://fireauth-4f9d0.firebaseio.com",
+    "project_id": "fireauth-4f9d0",
+    "storage_bucket": "fireauth-4f9d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158656811088:android:43b9ba12d2a84054",
+        "android_client_info": {
+          "package_name": "com.example.daxamin.fireauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158656811088-uejj78s7llr8gma7nd7u54bjd5eok47q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daxamin.fireauth",
+            "certificate_hash": "8274d636e1e2399a9fc61c97d26792ff409daccc"
+          }
+        },
+        {
+          "client_id": "158656811088-lol410aa5mm5h3ckfflcg82vv6t96lkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX4WSwBxFsF7sy8FJBjZiQi3LcSuNd4_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158656811088-lol410aa5mm5h3ckfflcg82vv6t96lkg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

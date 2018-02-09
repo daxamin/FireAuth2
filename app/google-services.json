@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "158656811088-91pqvdc6ma3ij97el3id6irth5l08tse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daxamin.fireauth",
+            "certificate_hash": "502e2f7e65c1ec15f80ad35f6b6a556b03af046d"
+          }
+        },
+        {
           "client_id": "158656811088-uejj78s7llr8gma7nd7u54bjd5eok47q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

@@ -222,8 +222,9 @@ public class PhoneAuthActivity extends AppCompatActivity implements
 
     private void startPhoneNumberVerification(String phoneNumber) {
         // [START start_phone_auth]
-        PhoneAuthProvider.getInstance().verifyPhoneNumber(
-                "+1" + phoneNumber,        // Phone number to verify
+        PhoneAuthProvider
+                .getInstance()
+                .verifyPhoneNumber("+1" + phoneNumber,        // Phone number to verify
                 60,                 // Timeout duration
                 TimeUnit.SECONDS,   // Unit of timeout
                 this,               // Activity (for callback binding)

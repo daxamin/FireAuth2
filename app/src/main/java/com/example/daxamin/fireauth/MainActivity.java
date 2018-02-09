@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mAuth = FirebaseAuth.getInstance();
 
 
         startauthentication();
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(temporary!= null && !temporary.isEmpty()) {
 
-            mAuth = FirebaseAuth.getInstance();
+
             mFirebaseDatabase = FirebaseDatabase.getInstance();
             myRef = mFirebaseDatabase.getReference();
             FirebaseUser currentFirebaseUser = FirebaseAuth.getInstance().getCurrentUser();
